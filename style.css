@@ -1,0 +1,32 @@
+/* Základní stylování */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* zajistí výšku celé obrazovky */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hlavička a patička */
+  header, footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Patička na spod */
+  footer {
+    margin-top: auto; /* zatlačí patičku dolů */
+  }
+  
+  /* Boxy s obsahem */
+  .box {
+    background: #e0e0e0;
+    padding: 20px;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  
